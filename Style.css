@@ -1,21 +1,48 @@
- body {
-            background-color: rgb(255, 255, 255);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: auto;            
-        }
-        .botomUP{
-            background: linear-gradient(to left,rgb(143,38,38)width);
-            font-size: 20;
-            padding: 10px;
-            font-weight: bold;
-            border: none;
-            border-radius: 20px;
-        }
-        #topDown {
-             background-color: rgb(214, 124, 244);
-            font-size: 20;
-            padding: 10px;
-            font-weight: bold;
-            border: none;
-            border-radius: 20px;
-        }
+
+/* Navbar สีม่วง */
+
+.navbar {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important;
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(109, 40, 217, 0.2);
+}
+
+/* ชื่อเว็บไซต์ */
+
+.navbar-brand {
+    color: white !important;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar-brand span {
+    color: #e9d5ff;
+}
+
+/* เมนู */
+
+.nav-link {
+    color: white !important;
+    font-weight: 400;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #e9d5ff !important;
+}
+
+/* ปุ่มเมนูมือถือ */
+
+.navbar-toggler {
+    border-color: #e9d5ff;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+}
