@@ -1,0 +1,21 @@
+ body {
+            background-color: rgb(255, 255, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;            
+        }
+        .botomUP{
+            background: linear-gradient(to left,rgb(143,38,38)width);
+            font-size: 20;
+            padding: 10px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+        }
+        #topDown {
+             background-color: rgb(214, 124, 244);
+            font-size: 20;
+            padding: 10px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+        }
